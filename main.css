@@ -1,0 +1,221 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: rgb(222, 235, 206);
+  background-image: url(img/tersius-van-rhyn-xcQWMPm9fG8-unsplash.jpg);
+  background-size: cover;
+  background-position: 30%;
+  margin: 0px 5% 0 5%;
+  height: auto;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 90%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .block{
+      display: none;
+    }
+    .ava{
+      clear: both;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .left-first{
+      padding-bottom: 100px;
+    }
+    #name,#jd{
+      text-align: center;
+    }
+    p.icon{
+      font-size: larger;
+    }
+    .contract{
+      width: 100%;
+    }
+  }
+
+
+
+/* Backgroud */
+.bg{
+    position: relative;
+    background-image: url(img/clark-tibbs-oqStl2L5oxI-unsplash.jpg);
+    background-size:cover;
+    background-position: 30%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-top: 10px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.ava { 
+  margin-top: 200px;
+  width: 180px;
+  height: 180px;
+  bottom: -35%;
+  z-index: 2;
+  border-radius: 50%;
+}
+.block1{
+  height: 100px;
+}
+
+
+
+.second{
+  height: 50px;
+}
+
+
+p{
+  text-align: justify;
+  text-align-last: left;
+  padding: 5px;
+}
+
+
+.icon{
+  margin-right: 30px;
+}
+
+.intr{
+  color: #EAEAEA;
+  margin-left: 20px;
+}
+
+.general{
+  background-color: #335436;
+  margin:10px 0 50px 10px;
+  border-radius: 5px;
+}
+
+.conten-goal{
+  min-height: 130px;
+  width: 100%;
+  background-color: white;
+  border-bottom-left-radius: 5px;
+}
+
+.left-first{
+  position: relative;
+  color: antiquewhite;
+}
+
+.icontract{
+  margin: 10px 7px;
+}
+
+.contract{
+  width: 80%;
+  text-align: center;
+}
+
+.left-second{
+  color: antiquewhite;
+}
+
+.rigth-first{
+  border-radius: 3%;
+  height: auto;
+  background-color:#EAEAEA;
+}
+
+.right-second{
+  min-height: 800px;
+  background-color:#EAEAEA;
+  border-radius: 3%;
+}
+
+.detailsline{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.detailsline a{
+  text-decoration: none;
+  color: #8F9F90;
+  font-size: 25px;
+}
+
+
+.detailsline li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border: 8px solid white;
+  border-radius: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #fffdfd;
+}
+th{
+  float: left;
+}
+
+th,td{
+  margin: 20px 79px 20px 15px;
+  text-align: justify;
+  text-align-last: left;
+  font-weight: 700;
+}
+
+.btn:hover  {
+  color: #335436;
+}
+
+.btn{
+  background-color: #EAEAEA;
+  border: none;
+  color: #8F9F90;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  background-color: #335436;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: white;
+}
